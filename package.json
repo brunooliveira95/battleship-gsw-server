@@ -16,6 +16,9 @@
     "clean-architecture"
   ],
   "author": "Bruno Oliveira",
+  "repository": {
+    "url": "https://github.com/brunooliveira95/battleship-gsw-server"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
