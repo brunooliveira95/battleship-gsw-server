@@ -7,7 +7,7 @@
     "clean": "rm -rf build && mkdir build",
     "build-babel": "babel -d ./build ./lib -s",
     "build": "npm run clean && npm run build-babel",
-    "start": "npm run build && node ./build/app.js",
+    "start": "npm run build && node ./build/server.js",
     "dev": "nodemon --exec babel-node ./lib/server.js --inspect",
     "test": "mocha '**/*.spec.js' --require babel-register --require babel-polyfill"
   },
