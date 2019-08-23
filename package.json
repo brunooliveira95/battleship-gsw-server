@@ -4,6 +4,7 @@
   "description": "Jogo de batalha naval para dois jogadores desenvolvido em Node.Js utilizando conceitos de clean architecture e TDD",
   "main": "server.js",
   "scripts": {
+    "prestart": "npm i",
     "start": "babel-node ./lib/server.js",
     "dev": "nodemon --exec babel-node ./lib/server.js --inspect",
     "test": "mocha '**/*.spec.js' --require babel-register --require babel-polyfill"
