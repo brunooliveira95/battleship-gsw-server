@@ -1,4 +1,5 @@
 # battleship-gsw-server
+[![Build Status](https://travis-ci.org/brunooliveira95/battleship-gsw-server.png)](your travis url for the repo here)
 #### Descrição
 Jogo de batalha naval para dois jogadores desenvolvido em Node.Js (ES6) e MongoDB utilizando conceitos de Clean Architecture, Clean Code, Repository Pattern, TDD e DDD.
 
