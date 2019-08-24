@@ -9,7 +9,7 @@
     "build": "npm run clean && npm run build-babel",
     "start": "npm run build && node ./build/server.js",
     "dev": "nodemon --exec babel-node ./lib/server.js --inspect",
-    "test": "mocha '**/*.spec.js' --require babel-register --require babel-polyfill"
+    "test": "mocha '**/*.spec.js' --color --require babel-register --require babel-polyfill"
   },
   "keywords": [
     "battleship",
