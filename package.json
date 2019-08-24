@@ -1,7 +1,7 @@
 {
   "name": "battleship-gsw-server",
   "version": "1.0.0",
-  "description": "Jogo de batalha naval para dois jogadores desenvolvido em Node.Js utilizando conceitos de clean architecture e TDD",
+  "description": "Jogo de batalha naval para dois jogadores desenvolvido em Node.Js (ES6) e MongoDB utilizando conceitos de Clean Architecture, Clean Code, Repository Pattern, TDD e DDD",
   "main": "server.js",
   "scripts": {
     "clean": "rm -rf build && mkdir build",
